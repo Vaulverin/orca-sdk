@@ -38,9 +38,9 @@ import { QuotePoolParams, QuoteBuilderFactory } from "../../quote/quote-builder"
 import { OrcaPoolParams } from "./pool-types";
 
 export class OrcaPoolImpl implements OrcaPool {
-  private connection: Connection;
-  private poolParams: OrcaPoolParams;
-  private orcaTokenSwapId: PublicKey;
+  protected connection: Connection;
+  protected poolParams: OrcaPoolParams;
+  protected orcaTokenSwapId: PublicKey;
 
   constructor(connection: Connection, network: Network, config: OrcaPoolParams) {
     this.connection = connection;
