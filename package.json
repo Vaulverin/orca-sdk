@@ -1,6 +1,6 @@
 {
   "name": "@vaulverin/orca-sdk",
-  "version": "1.2.23.1",
+  "version": "1.2.5",
   "description": "Typescript SDK for the Orca protocol.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
